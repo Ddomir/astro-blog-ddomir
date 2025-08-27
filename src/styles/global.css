@@ -31,14 +31,26 @@ h1 {
     width: 40px;
     height: 5px;
     margin-bottom: 10px;
-    background-color: #ff9776;
+    background-color: #4c1d95;
+    transition: background-color 0.3s ease;
+}
+
+.hamburger:hover .line {
+    background-color: #f9deff;
+}
+
+.dark .hamburger .line {
+    background-color: #938dfb;
+}
+
+.dark .hamburger:hover .line {
+    background-color: #b8b4ff;
 }
 
 .nav-links {
     width: 100%;
     top: 5rem;
     left: 48px;
-    background-color: #ff9776;
     display: none;
     margin: 0;
 }
