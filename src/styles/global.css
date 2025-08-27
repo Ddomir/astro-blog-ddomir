@@ -81,3 +81,36 @@ h1 {
     }
 
 }
+
+html.dark {
+    background-color: #0d0950;
+    color: #fff;
+}
+
+.dark .nav-links a {
+    color: #fff;
+}
+
+.dark .skill {
+    color: #87ceeb !important;
+}
+
+.dark a {
+    color: #87ceeb;
+}
+
+.dark a:hover {
+    color: #add8e6;
+}
+
+.dark .tag,
+.dark .tag-link {
+    color: #87ceeb !important;
+    background-color: rgba(135, 206, 235, 0.1);
+    border: 1px solid #87ceeb;
+}
+
+.dark .tag:hover,
+.dark .tag-link:hover {
+    background-color: rgba(135, 206, 235, 0.2);
+}
