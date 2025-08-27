@@ -41,3 +41,30 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+---
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import '../styles/global.css';
+
+const pageTitle = "About Me";
+
+const identity = {
+firstName: "Sarah",
+country: "Canada",
+occupation: "Technical Writer",
+hobbies: ["photography", "birdwatching", "baseball"],
+};
+
+const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
+
+const happy = true;
+const finished = false;
+const goal = 3;
+
+const skillColor = "navy";
+const fontWeight = "bold";
+const textCase = "uppercase";
+
+---
